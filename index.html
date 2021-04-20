@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>Was informatie</title>
 </head>
@@ -12,6 +15,40 @@
 <body>
 
     <header>
+        <nav>
+            <ul id="return" class="menu">
+                <li class="logo"><a href="index.html">Wasmachine</a></li>
+                <li class="item has-submenu">
+                    <a tabindex="0">Kledingstukken</a>
+                    <ul class="submenu">
+                        <li class="sub-item"><a href="#sportkleding">Sportkleding</a></li>
+                        <li class="sub-item"><a href="#truien">Truien</a></li>
+                        <li class="sub-item"><a href="#t_shirt">T-Shirt</a></li>
+                        <li class="sub-item"><a href="#broeken">Broeken</a></li>
+                        <li class="sub-item"><a href="#onderbroeken">Onderbroeken</a></li>
+                        <li class="sub-item"><a href="#handdoeken">Handdoeken</a></li>
+                        <li class="sub-item"><a href="#beddengoed">Beddengoed</a></li>
+                    </ul>
+                </li>
+                <li class="item has-submenu">
+                    <a tabindex="0">Attributen</a>
+                    <ul class="submenu">
+                        <li class="subitem"><a href="https://www.bol.com/nl/l/wasmiddelen/N/20484/"
+                                target="_blank">Wasmiddel</a></li>
+                        <li class="subitem"><a
+                                href="https://www.bol.com/nl/s/?searchtext=lenor+geurbooster&searchContext=media_all&appliedSearchContextId=&suggestFragment=&adjustedSection=&originalSection=&originalSearchContext=&section=main&N=0&defaultSearchContext=media_all"
+                                target="_blank">Geurbooster</a>
+                        </li>
+                        <li class="subitem"><a
+                                href="https://www.bol.com/nl/l/wassen-wasverzachters/N/20485/?Referrer=ADVNLGOO002069-EHQAJBECFM3F2-486383190950&gclid=EAIaIQobChMIj8C748CM8AIVgrbtCh29Uw9hEAAYASAAEgLVB_D_BwE"
+                                target="_blank">Wasverzachter</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="item"><a href="#fouten">Fouten</a></li>
+                <li class="toggle"><a tabindex="0"><i class="fas fa-bars"></i></a></li>
+            </ul>
+        </nav>
         <h1>Was Informatie</h1>
         <p>
             Informatie over hoe je bepaalde kledinstukken moet wassen.
@@ -24,7 +61,7 @@
 
     <main>
         <!-- Sportkleding -->
-        <section>
+        <section id="sportkleding">
             <h2>Sportkleding</h2>
             <table>
                 <thead>
@@ -73,10 +110,11 @@
             <p>
                 Was op 30 graden. Warmer wassen tast je sportkleding aan.
             </p>
+            <a href="#return">Return to Menu</a>
         </section>
 
         <!-- Truien -->
-        <section>
+        <section id="truien">
             <h2>Truien</h2>
             <table>
                 <thead>
@@ -115,7 +153,7 @@
         </section>
 
         <!-- T-shirts -->
-        <section>
+        <section id="t_shirt">
             <h2>T-shirt</h2>
             <table>
                 <thead>
@@ -163,7 +201,7 @@
         </section>
 
         <!-- Spijkerbroeken -->
-        <section>
+        <section id="broeken">
             <h2>Jeans & Spijkerbroeken</h2>
             <table>
                 <thead>
@@ -206,7 +244,7 @@
         </section>
 
         <!-- Onderbroeken -->
-        <section>
+        <section id="onderbroeken">
             <h2>Onderbroeken</h2>
             <table>
                 <thead>
@@ -242,10 +280,11 @@
                 poepbacterie zit namelijk niemand te wachten! Let wel op met te hoog wassen want dit kan wel krimpen
                 veroorzaken.
             </p>
+            <a href="#return">Return to Menu</a>
         </section>
 
         <!-- Handdoeken -->
-        <section>
+        <section id="handdoeken">
             <h2>Handdoeken</h2>
             <table>
                 <thead>
@@ -289,7 +328,7 @@
         </section>
 
         <!-- Beddengoed -->
-        <section>
+        <section id="beddengoed">
             <h2>Beddengoed</h2>
             <table>
                 <thead>
@@ -332,7 +371,8 @@
             </p>
         </section>
 
-        <section>
+        <!-- Fouten -->
+        <section id="fouten">
             <h2>Fouten die eventueel worden gemaakt</h2>
             <p>
                 Zoveel mogelijk in je wasmachine
@@ -371,6 +411,8 @@
             </p>
         </section>
     </main>
+
+    <script src="js/script.js"></script>
 
 </body>
 
